@@ -12,3 +12,8 @@ font-size: 20px;
 font-weight: 300;
 text-rendering: optimizelegibility;
 }
+
+.row {
+max-width: 1140px;
+margin: 0 auto 0 auto;
+}
