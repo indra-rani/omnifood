@@ -15,7 +15,7 @@ html {
 
 .row {
   max-width: 1140px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 header {
@@ -25,19 +25,55 @@ header {
     ),
     url("./img/hero.jpeg");
   height: 100vh;
-  border: 10px solid red;
   background-size: cover;
   background-position: center;
 }
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
+  width: 1100px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
 }
 
 h1 {
-  margin: 0;
+  margin-top: 0;
+  margin-botom: 20px;
+  font-size: 240%;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.btn:link,
+.btn:visited {
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: white;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: white;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: white;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
 }
