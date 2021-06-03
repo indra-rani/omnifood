@@ -40,6 +40,15 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 30%;
+}
+
 /* --------------------------------- */
 /* REUSABLE COMPONENTS */
 /* --------------------------------- */
@@ -90,4 +99,3 @@ h1 {
 .btn:active {
   background-color: #cf6d17;
 }
-
