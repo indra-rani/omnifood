@@ -76,10 +76,6 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
-.icons {
-  width: 50px;
-}
-
 /* --------------------------------- */
 /* REUSABLE COMPONENTS */
 /* --------------------------------- */
@@ -130,11 +126,19 @@ h2:after {
 }
 
 h3 {
-  font-size: 110px;
-  margin-bottom: 15px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* ICONS */
+
+.icons {
+  width: 50px;
+  margin-bottom: 10px;
 }
 
 /* Buttons */
+
 .btn:link,
 .btn:visited {
   transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -164,3 +168,22 @@ h3 {
 .btn:active {
   background-color: #cf6d17;
 }
+
+/*--------Paragraphs---------*/
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}  
+  
+.box {
+  padding: 1px;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+
